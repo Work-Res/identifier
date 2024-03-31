@@ -9,15 +9,15 @@ with open(os.path.join(os.path.dirname(__file__), 'README.md')) as readme:
 # allow setup.py to be run from any path
 os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 setup(
-    name='identity',
+    name='identifier',
     version='0.1.0',
     author=u'Africort Investments',
     author_email='ckgathi@africortinvestmemts.com',
     packages=find_packages(),
     include_package_data=True,
-    url='https://github.com/Work-Res/identity',
+    url='https://github.com/Work-Res/identifier',
     license='GPL licence, see LICENCE',
-    description='identity.',
+    description='identifier.',
     long_description=README,
     zip_safe=False,
     keywords='django models fields forms admin',
@@ -26,7 +26,6 @@ setup(
         'django[argon2]',
         'django-simple-history',
         'django-js-reverse',
-        'django-logentry-admin',
         'django-debug-toolbar',
         'django-extensions',
         'python-dateutil',
