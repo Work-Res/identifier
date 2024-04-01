@@ -1,6 +1,8 @@
 # identifier
 Identifier module
 
+[![Coverage Status](https://coveralls.io/repos/github/Work-Res/identifier/badge.svg?branch=develop)](https://coveralls.io/github/Work-Res/identifier?branch=develop)
+
 ## Overview
 
 The Application Identifier Management Module is designed to create and manage unique identifiers for applications within the system.
